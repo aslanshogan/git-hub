@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/xknedjqo" method="post">
+      <fieldset>
+        <legend>Personal info</legend>
+
+        <label for="first name">first name</label>
+        <input
+          type="text"
+          name="first name"
+          id="first name"
+          placeholder="enter first name"
+        />
+        <label for="surname name">surname</label>
+
+        <input
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="enter surname"
+        />
+
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="enter email" />
+        <label for="Date">Date</label>
+        <input type="date" name="Date" id="Date" />
+
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <label for="male">male</label>
+        <input multiple type="radio" name="radio" id="male" />
+        <label for="female">female</label>
+        <input type="radio" name="radio" id="Female" />
+
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+          <option value="Israel">israel</option>
+          <option value="USA">USA</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Profile</legend>
+
+        <label for="Image">Image</label>
+        <input
+          type="file"
+          name="Image"
+          id="Image"
+          accept="jpeg,jpg,png"
+        /><br /><br />
+        <label for="Nickname">Nickname</label>
+        <input
+          type="text"
+          name="Nickname"
+          id="Nickname"
+          placeholder="enter your Nickname"
+        />
+
+        <label for="color">color</label>
+        <input type="color" name="color" id="color" value="black" />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          maxlength="10"
+        /><br /><br />
+        <label for="bio">Bio</label>
+        <textarea name="Bio" id="bio" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br /><br />
+
+      <fieldset>
+        <legend>Favorite Animal</legend>
+
+        <label for="dogs">dogs</label>
+        <input type="checkbox" name="dogs" id="dogs" />
+        <label for="Cats">cats</label>
+        <input type="checkbox" name="Cats" id="Cats" />
+        <label for="Camels">camels</label>
+        <input type="checkbox" name="Camels" id="Camels" />
+        <label for="Hamster">hamster</label>
+        <input type="checkbox" name="Hamster" id="Hamster" />
+        <label for="Unicorn">unicorn</label>
+        <input type="checkbox" name="Unicorn" id="Unicorn" />
+      </fieldset>
+      <br /><br />
+
+      <fieldset>
+        <legend>Personal Questions</legend>
+        <label for="happy">How happy are you?</label>
+        <input type="range" name="Happy" id="Happy" />
+        <label for="height">height</label>
+        <input type="number" step="0.01" max="3" min="0" />
+      </fieldset>
+      <br /><br />
+
+      <label for="submit"></label>
+      <input type="submit" id="submit" value="Send" />
+      <label for="rest"></label>
+      <input type="reset" />
+    </form>
+  </body>
+</html>
