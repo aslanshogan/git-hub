@@ -1,0 +1,556 @@
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+  </head>
+
+  <body dir="rtl">
+    <a href="./elecform.html">elecform</a>
+    <a href="./101form.html">101form</a>
+
+    <h1>בקשה לקבלת רישיון לעסוק בביצוע עבודות חשמל</h1>
+
+    <form action="https://formspree.io/f/mvoyebre" method="post">
+
+      <fieldset>
+
+        <legend><h2>סוג רישיון</h2></legend>
+
+        <h3>סוג רישיון(שדות המסומנים בכוכבית (*) הם שדות חובה)</h3>
+
+        <h4>
+
+          בהתאם לחוק החשמל התשי"ד-1954, ולתקנות החשמל (רישיונות) התשמ"ה-1985
+
+        </h4>
+
+ 
+
+        <label for="select">אני מבקש לקבל רישיון חשמל חסוג:</label><br /><br />
+
+        <select required name="type license" id="select">
+
+          <option value="חשמלאי עוזר">חשמלאי עוזר</option>
+
+          <option value="חשמלאי מעשי">חשמלאי מעשי</option>
+
+          <option value="חשמלאי מוסמך">חשמלאי מוסמך</option>
+
+          <option value="חשמלאי ראשי">חשמלאי ראשי</option>
+
+          <option value="חשמלאי טכנאי">חשמלאי טכנאי</option>
+
+          <option value="חשמלאי הנדסאי">חשמלאי הנדסאי</option>
+
+          <option value="חשמלאי מהנדס">חשמלאי מהנדס</option>
+
+          <option value="חשמלאי בודק סוג 1">חשמלאי בודק סוג 1</option>
+
+          <option value="חשמלאי בודק סוג 2">חשמלאי בודק סוג 2</option>
+
+          <option value="חשמלאי בודק סוג 3">חשמלאי בודק סוג 3</option></select><br /><br />
+
+        אני מחזיק ברישיון חשמל קודם: <br /><br />
+
+        <label for="yes">כן</label>
+
+        <input required type="radio" name="have license" id="yes" />
+
+        <label for="no">לא</label>
+
+        <input required type="radio" name="have license" id="no" /><br/><br/>
+
+ 
+
+        <fieldset>
+
+          <legend><h2>פרטים אישיים</h2></legend>
+
+          פרטים אישיים(שדות המסומנים בכוכבית (*) הם שדות חובה) <br /><br />
+
+          סוג תעודה מזהה <br />
+
+          <label for="id">תעודת זהות</label>
+
+          <input required type="radio" name="id" id="id" />
+
+          <label for="passport">דרכון</label>
+
+          <input required type="radio" name="id" id="passport" />
+
+          <p>
+
+            לתשומת לבך - במידה שהינך בעל תעודת זהות ישראלית - נא להזין מס' תעודת
+
+            זהות בלבד. <br />
+
+            במידה שהינך בעל אזרחות זרה ו/או לא ישראלית – נא להזין את מס' הדרכון.
+
+          </p>
+
+          <hr />
+
+          <label for="תעודת זהות">תעודת זהות</label>
+
+          <input required type="text" name="תעודת זהות" id="תעודת זהות" />
+
+          <label for="שם משפחה">שם משפחה</label>
+
+          <input required type="text" name="שם משפחה" id="שם משפחה" />
+
+          <label for="שם פרטי">שם פרטי</label>
+
+          <input required type="text" name="שם פרטי" id="שם פרטי" /><br />
+
+          <hr />
+
+          <label for="תאריך לידה">תאריך לידה</label>
+
+          <input required type="date" name="תאריך לידה" id="תאריך לידה" />
+
+          <label for="שלח"></label>
+
+          <label for="שם ההורה">שם ההורה</label>
+
+          <input type="text" name="שם ההורה" id="שם ההורה" />
+
+          <label for="זכר">זכר</label>
+
+          <input required type="radio" name="gender" id="זכר" />
+
+          <label for="נקבה">נקבה</label>
+
+          <input required type="radio" name="gender" id="נקבה" />
+
+          <label for="אחר">אחר</label>
+
+          <input required type="radio" name="gender" id="אחר" />
+
+          <hr />
+
+          <label for="email">דואר אלקטרוני</label>
+
+          <input
+
+            required
+
+            type="email"
+
+            name="email"
+
+            id="email"
+
+            placeholder="ישמש לטיפול ועדכון פנייתך בעתיד.באחריותך לעדכן את הפרטים"
+
+          />
+
+          <label for="phone">מספר טלפון </label>
+
+          <input type="tel" name="phone" id="phone" />
+
+          <hr />
+
+          <label for="phone mobile">מספר טלפון נייד </label>
+
+          <input required type="tel" name="phone mobile" id="phone mobile" />
+
+          <label for="checkbox">מאשר קבלת הודעות באמצעות SMS</label>
+
+          <input type="checkbox" id="checkbox" name="sms" />
+
+          <label for="fax">מספר פקס</label>
+
+          <input type="text" id="fax" name="fax" />
+
+        </fieldset>
+
+        <hr />
+
+        <fieldset>
+
+          <legend><h2>פרטי השכלה</h2></legend>
+
+          <h4>פרטי השכלה(שדות המסומנים בכוכבית (*) הם שדות חובה)</h4>
+
+          <hr />
+
+          <p>
+
+            חובה עליך לצרף לבקשתך את העתקי התעודות ו/או הדיפלומות, גיליון
+
+            הציונים ופירוט רשימת מקצועות הלימוד המעידים על הכשרתך והסמכתך בחשמל.
+
+            <br />
+
+            בוגרי מוסדות לימוד בחו"ל, כשהתעודות ו/או הדיפלומות אינן באנגלית,
+
+            חייבים לצרף בנוסף למפורט מעלה, גם את תרגום כל המסמכים לעברית כדין
+
+            (באישור עו"ד ו/או נוטריון). אזהרה חמורה: במידה שהמסמכים אשר תצרף
+
+            לבקשתך יתגלו כמזויפים ו/או לא אמיתיים, אזי יינקטו כנגדך כל האמצעים
+
+            כמתחייב בחוק ובתקנות החשמל, לרבות פסילת רישיונך ו/או הגבלתו.
+
+          </p>
+
+          <hr />
+
+ 
+
+          <h4>השכלה 1</h4>
+
+          <hr />
+
+ 
+
+          <label for="eduction">מגמה/מסלול/התמחות </label>
+
+          <select required name="eduction" id="eduction">
+
+            <option value="חניכות/בי" ס תעשייתי\קורס צבאי – בחשמל: מערכות הספק>
+
+              חניכות/בי"ס תעשייתי/קורס צבאי – בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="בי" ס מקצועי\טכנולוגי – בחשמל: מערכות הספק>
+
+              בי"ס מקצועי/טכנולוגי – בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="קורס/בחינות/הכשרה מקצועית – בחשמל: מערכות הספק">
+
+              קורס/בחינות/הכשרה מקצועית – בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="מוסד לימוד לטכנאים בחשמל: מערכות הספק">
+
+              מוסד לימוד לטכנאים בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="מוסד לימוד להנדסאים בחשמל: מערכות הספק">
+
+              מוסד לימוד להנדסאים בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="מוסד לימוד למהנדסים בחשמל: מערכות הספק">
+
+              מוסד לימוד למהנדסים בחשמל: מערכות הספק
+
+            </option>
+
+            <option value="חשמלאי מוסמך ומיזוג אוויר תעשייתי">
+
+              חשמלאי מוסמך ומיזוג אוויר תעשייתי
+
+            </option>
+
+            <option value="אחר">אחר</option>
+
+          </select>
+
+          <label for="השכלה">אחר</label>
+
+          <input type="text" name="השכלה" id="השכלה" /><br /><br />
+
+          <label for="number diploma">מספר תעודה</label>
+
+          <input required type="number" id="number diploma" name="מספר תעודה" />
+
+          <label for="school name">שם בית ספר</label>
+
+          <input required type="text" name="שם בית ספר" id="school name" />
+
+          <p>מיקום:</p>
+
+          <label for="בארץ">בארץ</label>
+
+          <input required type="radio" id="בארץ" name="מיקום לימודים" />
+
+          <label for="בחול">בחול</label>
+
+          <input type="radio" id="בחול" name="מיקום לימודים" />
+
+ 
+
+          <label for="from">משנת לימוד</label>
+
+          <input required type="month" name="משנת לימוד" id="from" />
+
+          <label for="to">עד שנת לימוד</label>
+
+          <input
+
+            required
+
+            type="month"
+
+            name="עד שנת לימוד"
+
+            id="to"
+
+          /><br /><br />
+
+          <br />
+
+          <hr />
+
+          <h4>פרטים על הרישום בפנקס המהנדסים/ההנדסאים/הטכנאים</h4>
+
+          <label for="פנקס ההנדסאים והטכנאים">פנקס ההנדסאים והטכנאים</label>
+
+          <input
+
+            type="checkbox"
+
+            id="פנקס ההנדסאים והטכנאים"
+
+            name="פנקס ההנדסאים והטכנאים"
+
+          />
+
+          <label for="תאריך רישום פנקס ההנדסאים והטכנאים">תאריך רישום </label>
+
+          <input
+
+            type="date"
+
+            name="תאריך רישום פנקס ההנדסאים והטכנאים"
+
+            id="תאריך רישום פנקס ההנדסאים והטכנאים"
+
+          />
+
+          <label for="פנקס ההנדסאים והטכנאים מספר תעודה">מספר תעודה </label>
+
+          <input
+
+            type="number"
+
+            id="פנקס ההנדסאים והטכנאים מספר תעודה"
+
+            name="מספר תעודה הנדסאים טכנאים"
+
+          />
+
+          <label for="Register of engineers and technicians certificate number"
+
+            >תעודה מצורפת</label>
+
+          <input
+
+            accept=".jpeg,.jpg,.tif,.gif,.pdf"
+
+            type="file"
+
+            name="Register of engineers and technicians certificate number"
+
+            id="Register of engineers and technicians certificate number"
+
+          />
+
+          <br />
+
+          <hr />
+
+ 
+
+          <label for="פנקס המהנדסים והאדריכלים">פנקס המהנדסים והאדריכלים</label>
+
+          <input
+
+            type="checkbox"
+
+            id="פנקס המהנדסים והאדריכלים"
+
+            name="פנקס המהנדסים והאדריכלים"
+
+          />
+
+          <label for="תאריך רישום פנקס המהנדסים והאדריכלים">תאריך רישום </label>
+
+          <input
+
+            type="date"
+
+            name="תאריך רישום פנקס המהנדסים והאדריכלים"
+
+            id="תאריך רישום פנקס המהנדסים והאדריכלים"
+
+          />
+
+          <label for="פנקס המהנדסים והאדריכלים מספר תעודה">מספר תעודה </label>
+
+          <input
+
+            type="number"
+
+            id="פנקס המהנדסים והאדריכלים מספר תעודה"
+
+            name="מספר תעודה מהנדסים"
+
+          />
+
+          <label for="Register of Engineers and Architects Certificate Number"
+
+            >תעודה מצורפת</label>
+
+          <input
+
+            accept=".jpeg,.jpg,.tif,.gif,.pdf"
+
+            type="file"
+
+            name="Register of Engineers and Architects Certificate Number"
+
+            id="Register of Engineers and Architects Certificate Number"
+
+          />
+
+        </fieldset>
+
+        <fieldset>
+
+          <legend><h2>הצהרות ומסמכים</h2></legend>
+
+          <label for="אישור"
+
+            >* אני מאשר בזאת כי כל המידע והפרטים שמסרתי בטופס זה הם מלאים,
+
+            נכונים ואמיתיים. ידוע לי כי אהיה צפוי לעונשים הקבועים בחוק על כל
+
+            רישום כוזב ו/או מטעה שערכתי בטופס זה. הריני מאשר ומסמיך את מנהל
+
+            ענייני חשמל ו/או כל גורם מטעמו ו/או עבורו לבקש מכל מוסד לימוד בין
+
+            בארץ ובין בחו"ל את כל פרטי המידע הנוגעים ללימודיי, כפי שציינתי בטופס
+
+            זה, וכן הריני מרשה ומסמיך כל מוסד לימוד, כאמור למסור לכם את המידע
+
+            הנ"ל. אני מתחייב לעדכן את היחידה לרישוי חשמלאים על כל שינוי בפרטים
+
+            אשר נמסרו על ידי, לרבות שינוי בכתובת למשלוח הרישיון.</label>
+
+          <input type="checkbox" id="אישור" name="אישור" /><br /><br />
+
+          <hr />
+
+          <h4>מסמכים</h4>
+
+          <hr />
+
+          <h4>הנחיות לצירוף מסמכים</h4>
+
+          <ul>
+
+            <li>כדי לצרף קובץ, יש ללחוץ על שדה הקובץ.</li>
+
+            <li>
+
+              ניתן לצרף רק קבצי תמונה (JPEG, JPG, TIF, GIF) וקבצים בפורמט PDF.
+
+            </li>
+
+            <li>
+
+              כדי למחוק קובץ שצירפת או להחליף אותו, יש לעמוד על סימן האטב וללחוץ
+
+              על הלחצן השמאלי בעכבר.
+
+            </li>
+
+            <li>
+
+              הסריקה צריכה להתבצע בשחור לבן וברזולוציה לא גבוהה מ-300 DPI,
+
+              מחובתכם לבדוק שהמסמך קריא.
+
+            </li>
+
+            <li>גודל מקסימלי לקובץ הוא 800KB.</li>
+
+            <li>סך כל הצרופות (קבצים מצורפים) בטופס לא יעלה על 6MB.</li>
+
+            <li>אין להעלות קבצים המוגנים באמצעות סיסמא.</li>
+
+          </ul>
+          למדריך להקטנת קבצים
+          <a
+
+            target="_blank"
+
+            href=https://forms.gov.il/forms/resources/FileSizeReductionGuide.pdf
+
+            >לחץ כאן</a>
+
+ 
+
+          <hr />
+
+          <label for="id file">תעודת זהות</label>
+
+          <input
+
+            accept=".jpeg,.jpg,.tif,.gif,.pdf"
+
+            required
+
+            type="file"
+
+            name="תעודת זהות קובץ"
+
+            id="id file"
+
+          /><br /><br />
+
+          <label for="diploma file">תעודת השכלה מקצועית וגיליון ציונים</label>
+
+          <input
+
+            accept=".jpeg,.jpg,.tif,.gif,.pdf"
+
+            required
+
+            type="file"
+
+            name="תעודת השכלה מקצועית וגיליון ציונים"
+
+            id="diploma file"
+
+          />
+
+          <br /><br />
+
+        </fieldset>
+
+        <br /><br />
+
+        <label for="שלח"></label>
+        <label for="rest"></label>
+        <input type="reset" /><br><br>
+
+        <input type="submit" id="שלח" name="שלח" value="שלח" />
+
+      </fieldset>
+
+    </form>
+
+  </body>
+
+</html>
+
+ 
