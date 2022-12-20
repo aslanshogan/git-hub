@@ -1,0 +1,53 @@
+div.inline1 {
+  display: inline-block;
+  border: 20px solid;
+  margin: 20px;
+  background-color: rgb(43, 255, 0);
+  width: 27%;
+  height: 20%;
+  text-align: center;
+  padding: auto;
+  background-clip: border-box;
+  border-color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+div.inline2 {
+  display: inline-block;
+  border: 20px solid;
+  margin: 20px;
+  background-color: rgb(43, 255, 0);
+  width: 27%;
+  height: 20%;
+  text-align: center;
+  padding: auto;
+  background-clip: border-box;
+  border-color: rgb(255, 0, 0);
+  text-align: center;
+}
+div.inline3 {
+  display: inline-block;
+  border: 20px solid;
+  margin: 20px;
+  background-color: rgb(43, 255, 0);
+  width: 27%;
+  height: 20%;
+  text-align: center;
+  padding: auto;
+  background-clip: border-box;
+  border-color: rgb(255, 0, 0);
+  text-align: center;
+}
+div.block {
+  border: 20px solid;
+  width: 100%;
+  margin-inline: auto;
+  background-color: rgb(43, 255, 0);
+  width: 27%;
+  height: 20%;
+  text-align: center;
+  align-content: center;
+  padding: auto;
+  background-clip: border-box;
+  border-color: rgb(255, 0, 0);
+}
