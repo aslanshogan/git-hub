@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div.my-elem-1 .a > p {
   background-color: aqua;
 }
@@ -10,3 +11,17 @@ div.my-elem-3 .a .b p,
 #u {
   background-color: blue;
 }
+=======
+div.my-elem-1 .a > p {
+  background-color: aqua;
+}
+
+div.my-elem-2 p {
+  background-color: rgb(255, 103, 103);
+}
+
+div.my-elem-3 .a .b p,
+#u {
+  background-color: blue;
+}
+>>>>>>> 45ec553226ff9200db5478fb89ce64751bd75ee0

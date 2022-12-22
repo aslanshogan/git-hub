@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   text-align: center;
   direction: rtl;
@@ -63,3 +64,70 @@ p.second {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }
+=======
+body {
+  text-align: center;
+  direction: rtl;
+}
+aside {
+  text-align: right;
+}
+header {
+  background-color: aqua;
+}
+h1 {
+  background-color: blueviolet;
+  border: solid 10px;
+  border-right-style: dashed;
+  border-right-color: blue;
+  border-left-color: aqua;
+  border-bottom-color: blanchedalmond;
+}
+html {
+  background-color: rgb(112, 202, 172);
+}
+
+footer {
+  background-color: rgb(136, 136, 223);
+}
+p {
+  background-color: rgb(92, 112, 130);
+  border: solid 10px;
+  border-right-style: dashed;
+  border-right-color: blue;
+  border-left-color: aqua;
+  border-bottom-color: blanchedalmond;
+}
+nav {
+  background-color: rgb(255, 2, 2);
+  text-size-adjust: 10px;
+}
+
+li {
+  background-color: aqua;
+  border-radius: 2px solid blue;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.second {
+  background-color: aqua;
+  border-radius: 5px solid blue;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li.second {
+  background-color: rgb(250, 255, 255);
+  border-radius: 2px solid blue;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.second {
+  background-color: rgb(250, 255, 255);
+  border-radius: 2px solid blue;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+>>>>>>> 45ec553226ff9200db5478fb89ce64751bd75ee0
