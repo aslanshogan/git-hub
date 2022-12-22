@@ -1,0 +1,1053 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>101</title>
+  </head>
+
+  <body dir="rtl" style="border: 1px solid black">
+    <a href="./elecform.html">elecform</a><br />
+    <a href="./101form.html">101form</a><br />
+    <a href="./Health Declaration.html">healthform</a>
+    <p
+      style="
+        text-align: center;
+
+        padding: 1px;
+
+        border: 3px rgb(0, 0, 0) solid;
+
+        width: 150;
+      "
+    >
+      סמן/י √ בריבוע המתאים
+    </p>
+
+    <h1 style="text-align: center">(1)כרטיס עובד</h1>
+
+    <h3 style="text-align: center">ובקשה להקלה ולתיאום מס על ידי המעסיק</h3>
+
+    <h4 style="text-align: center">
+      לפי תקנות מס הכנסה (ניכוי ממשכורת ומשכר עבודה), התשנ"ג - 1993
+    </h4>
+
+    <h2 style="text-align: center">שנת המס</h2>
+    <form action="https://formspree.io/f/xeqdylzv" method="post">
+      <fieldset>
+        <p style="text-align: center">
+          {ראה הסברים (לפי המספרים) מעבר לדף} טופס זה ימולא על-ידי כל עובד עם
+          תחילת עבודתו, וכן בתחילת כל שנת מס (אא"כ המנהל אישר אחרת). הטופס מהווה
+          אסמכתא למעסיק למתן (1 (העובד. אם חל שינוי בפרטים - יש להצהיר על כך תוך
+          שבוע ימים. הקלות במס ולעריכת תיאומי מס בחישוב משכורת
+        </p>
+      </fieldset>
+
+      <h3>א. פרטי המעסיק (למילוי ע"י המעסיק)</h3>
+
+      <fieldset>
+        <label for="name">שם</label>
+
+        <input type="text" name="name" id="name" />
+
+        <label for="adress">כתובת</label>
+
+        <input type="text" name="adress" id="adress" />
+
+        <label for="phone">מספר פלאפון</label>
+
+        <input type="tel" name="phone number" id="phone" />
+
+        <label for="number file id">מספר תיק ניכויים</label>
+
+        <input type="text" name="number file id" id="number file id" />
+      </fieldset>
+
+      <h3>פרטי העובד/ת</h3>
+
+      <p>
+        (יש לצרף צילום תעודת זהות כולל ספח. אם צורף בעבר, יש לצרף צילום רק אם
+        היו שינויים בפרטים. למי שאין מספר תעודת זהות יש לצרף צילום דרכון ואישור
+        / רשיון שהייה בישראל שנתנו על ידי רשות האוכלוסין וההגירה)
+      </p>
+
+      <fieldset>
+        <label for="id number">מספר תעודת זהות</label>
+
+        <input type="number" name="id number" id="id number" />
+
+        <label for="surname">שם משפחה</label>
+
+        <input type="text" name="surname" id="surname" />
+
+        <label for="firstname">שם פרטי</label>
+
+        <input type="text" name="firstname" id="firstname" />
+
+        <label for="date birth">תאריך לידה</label>
+
+        <input type="date" name="date birth" id="date birth" />
+
+        <label for="date of immigration">תאריך עלייה</label>
+
+        <input
+          type="date"
+          name="date of immigration"
+          id="date of immigration"
+        />
+
+        <hr />
+
+        <label for="passport number">מספר דרכון (למי שאין מספר ת.ז.)</label>
+
+        <input type="number" name="passport number" id="passport number" />
+
+        <label for="private adress">כתובת פרטית </label>
+
+        <input type="text" name="private adress" id="private adress" />
+
+        <label for="street">רחוב/שכונה</label>
+
+        <input type="text" name="street" id="street" />
+
+        <label for="street number">מספר</label>
+
+        <input
+          type="number"
+          name="street number"
+          id="street number"
+        /><br /><br />
+
+        <label for="city">עיר/ישוב</label>
+
+        <input type="text" name="city" id="city" />
+
+        <label for="postal code">מיקוד</label>
+
+        <input type="text" name="postal code" id="postal code" />
+
+        <hr />
+
+        <table style="border: 1px solid; text-align: right">
+          <thead>
+            <tr style="border: 1px solid; text-align: center">
+              <th style="border: 1px solid">מין</th>
+
+              <th colspan="3" style="border: 1px solid">מצב משפחתי</th>
+
+              <th style="border: 1px solid">תושב ישראל</th>
+
+              <th style="border: 1px solid">חבר קיבוץ/מושב שיתופי</th>
+
+              <th style="border: 1px solid">חבר בקופת חולים</th>
+            </tr>
+          </thead>
+
+          <tr style="border: 1px solid">
+            <td style="border: 1px solid">
+              <label for="זכר">זכר</label>
+
+              <input type="radio" name="gender" id="זכר" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="רווק\ה">רווק\ה</label>
+
+              <input type="radio" name="מצב משפחתי" id="רווק\ה" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="נשוי">נשוי\אה</label>
+
+              <input type="radio" name="מצב משפחתי" id="נשוי" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="גרוש">גרוש\ה </label>
+
+              <input type="radio" name="מצב משפחתי" id="גרוש" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="כן">כן</label>
+
+              <input type="radio" name="תושב ישראל" id="כן" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="חבר קיבוץ">כן</label>
+
+              <input type="radio" name="חבר קיבוץ" id="חבר קיבוץ" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="חבר קופת חולים">לא</label>
+
+              <input type="radio" name="חבר קופת חולים" id="חבר קופת חולים" />
+            </td>
+          </tr>
+
+          <tr style="border: 1px solid">
+            <td style="border: 1px solid">
+              <label for="נקבה">נקבה</label>
+
+              <input type="radio" name="gender" id="נקבה" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="אלמן">אלמן\ה</label>
+
+              <input type="radio" name="מצב משפחתי" id="אלמן" />
+            </td>
+
+            <td colspan="2">
+              <label for="פרוד">פרוד/ה </label>
+
+              <input type="radio" name="מצב משפחתי" id="פרוד" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="לא">לא</label>
+
+              <input type="radio" name="תושב ישראל" id="לא" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="לא1">לא</label>
+
+              <input type="radio" name="חבר קיבוץ" id="לא1" />
+            </td>
+
+            <td style="border: 1px solid">
+              <label for="קופת חולים אחר">כן שם הקופה</label>
+
+              <input type="text" name="קופת חולים אחר" id="קופת חולים אחר" />
+            </td>
+          </tr>
+        </table>
+
+        <hr />
+
+        <label for="email">כתובת דואר אלקטרוני </label>
+
+        <input type="email" name="email" id="email" />
+
+        <label for="phone1">מספר טלפון</label>
+
+        <input type="tel" name="phone1" id="phone1" />
+
+        <label for="mobilep">מספר טלפון נייד</label>
+
+        <input type="tel" name="mobilep" id="mobilep" />
+      </fieldset>
+
+      <fieldset>
+        <h4>
+          פרטים על ילדיי שבשנת המס טרם מלאו להם 19 שנה (עפ”י ספח תעודת זהות)
+        </h4>
+
+        <p>סמן/יי√ ליד שם הילד: בטור 1 אם הילד נמצא בחזקתך</p>
+
+        <p>בטור 2 אם את/ה מקבל/ת בגינו קצבת ילדים מב"ל</p>
+      </fieldset>
+
+      <table style="border: 2px solid; border-collapse: 2px">
+        <thead style="border: 2px solid">
+          <tr>
+            <th style="border: 2px solid; width: 80px">1</th>
+
+            <th style="border: 2px solid; width: 80px">2</th>
+
+            <th style="border: 2px solid; width: 250px">שם</th>
+
+            <th style="border: 2px solid; width: 450px">מספר זהות</th>
+
+            <th style="border: 2px solid; width: 350px" colspan="3">
+              תאריך לידה
+            </th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+
+        <tr>
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+          <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+        </tr>
+      </table>
+
+      <h4>ד. פרטים על הכנסותיי ממעסיק זה</h4>
+
+      <fieldset>
+        <p>אני מקבל/ת: (ראה הסברים מעבר לדף)</p>
+
+        <label for="salary month">משכורת חודש</label>
+
+        <input type="checkbox" name="salary month" id="salary month" />
+
+        <label for="another salary">משכורת בעד משרה נוספת</label>
+
+        <input type="checkbox" name="another salary" id="another salary" />
+
+        <label for="half salary">משכורת חלקית</label>
+
+        <input type="checkbox" name="half salary" id="half salary" />
+
+        <label for="day salary"> שכר עבודה (עובד יומי) </label>
+
+        <input type="checkbox" name="day salary" id="day salary" />
+
+        <label for="salary allowance">קצבה</label>
+
+        <input type="checkbox" name="salary allowance" id="salary allowance" />
+
+        <label for="scholarship">מלגה</label>
+
+        <input type="checkbox" name="scholarship" id="scholarship" />
+      </fieldset>
+
+      <h4>ה. פרטים על הכנסות אחרות</h4>
+
+      <fieldset>
+        <input type="checkbox" name="no salary" id="no salary" />
+
+        <label for="no salary"
+          >אין לי הכנסות אחרות ממשכורת (משכורת חודש, בעד משרה (1) נוספת, משכורת
+          חלקית, שכר עבודה), מקצבה וממלגה</label
+        >
+
+        <br />
+
+        <hr />
+
+        <input type="checkbox" name="more income" id="more income" />
+
+        <label for="more income">יש לי הכנסות אחרות כמפורט להלן:</label>
+
+        <hr />
+
+        <input type="checkbox" name="month salary" id="month salary1" />
+
+        <label for="month salary1">משכורת חודש</label>
+
+        <input type="checkbox" name="day salary" id="day salary1" />
+
+        <label for="day salary1">שכר עבודה (עובד יומי)</label><br />
+
+        <input
+          type="checkbox"
+          name="salary another job"
+          id="salary another job"
+        />
+
+        <label for="salary another job">משכורת בעד משרה נוספת</label>
+
+        <input type="checkbox" name="allowance" id="allowance" />
+
+        <label for="allowance">קצבה</label><br />
+
+        <input type="checkbox" name="half salary" id="half salary1" />
+
+        <label for="half salary1">משכורת חלקית</label>
+
+        <input type="checkbox" name="scholarship" id="scholarship1" />
+
+        <label for="scholarship1">מלגה</label><br />
+
+        <p>אם יש לך הכנסה אחרת - נא סמן/י:</p>
+
+        <input type="checkbox" name="points1" id="points1" />
+
+        <label for="points1"
+          >אבקש לקבל נקודות זיכוי ומדרגות מס כנגד הכנסתי זו (7) (סעיף ד).
+          אינימקבל/ת אותן בהכנסה אחרת</label
+        ><br />
+
+        <input type="checkbox" name="points" id="points" />
+
+        <label for="points"
+          >אני מקבל/ת נקודות זיכוי ומדרגות מס בהכנסה (8) אחרת ועל כן איני זכאי/ת
+          להן כנגד הכנסה זו</label
+        ><br />
+
+        <input type="checkbox" name="nopension" id="nopension" />
+
+        <label for="nopension">
+          אין מפרישים עבורי לקרן השתלמות בגין הכנסתי האחרת, או שכל הפרשות המעסיק
+          לקרן השתלמות (9) בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label
+        ><br />
+
+        <input type="checkbox" name="allowance" id="nopension1" />
+
+        <label for="nopension1"
+          >אין מפרישים עבורי לקצבה/לביטוח אובדן כושר עבודה/פיצויים בגין הכנסתי
+          האחרת, או שכל הפרשות המעסיק לקצבה/לביטוח אובדן כושר עבודה/פיצויים (10)
+          בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label
+        >
+      </fieldset>
+
+      <h4>ו. פרטים על בן/בת הזוג</h4>
+
+      <fieldset>
+        <label for="name">שם</label>
+
+        <input type="text" name="name" id="name" />
+
+        <label for="adress">כתובת</label>
+
+        <input type="text" name="adress" id="adress" />
+
+        <label for="phone">מספר פלאפון</label>
+
+        <input type="tel" name="phone number" id="phone" />
+
+        <label for="number file id">מספר תיק ניכויים</label>
+
+        <input type="text" name="number file id" id="number file id" />
+      </fieldset>
+
+      <h3>פרטי העובד/ת</h3>
+
+      <p>
+        (יש לצרף צילום תעודת זהות כולל ספח. אם צורף בעבר, יש לצרף צילום רק אם
+        היו שינויים בפרטים. למי שאין מספר תעודת זהות יש לצרף צילום דרכון ואישור
+        / רשיון שהייה בישראל שנתנו על ידי רשות האוכלוסין וההגירה)
+      </p>
+
+      <fieldset>
+        <label for="partner id">מספר זהות</label>
+
+        <input type="number" name="partner id" id="partner id" />
+
+        <label for="partner surname">שם משפחה</label>
+
+        <input type="text" name="partner surname" id="partner surname" />
+
+        <label for="partner firstname">שם פרטי</label>
+
+        <input type="text" name="partner firstname" id="partner firstname" />
+
+        <label for="partner date birth">תאריך לידה</label>
+
+        <input type="date" name="date birth" id="partner date birth" />
+
+        <label for="partner date of immigration">תאריך עלייה</label>
+
+        <input
+          type="date"
+          name="date of immigration"
+          id="partner date of immigration"
+        />
+
+        <hr />
+
+        <label for="partner passport number"
+          >מספר דרכון (למי שאין מספר ת.ז.)</label
+        >
+
+        <input
+          type="number"
+          name="partner passport number"
+          id="partner passport number"
+        />
+
+        <label for="no1 salary">אין לבן/בת הזוג כל הכנסה</label>
+
+        <input type="radio" name="partner salary" id="no1 salary" />
+
+        <label for="partner salary">יש לבן/בת הזוג הכנסה</label>
+
+        <input type="radio" name="partner salary" id="partner salary" />מ:
+
+        <label for="work">עבודה/קצבה/עסק</label>
+
+        <input type="radio" name="work" id="work" />
+
+        <label for="work1">הכנסה אחרת</label>
+
+        <input type="radio" name="work" id="work1" /><br /><br />
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <p>
+          ז. שינויים במהלך השנה (כולל שינויים הקשורים לבקשה להקלה בחישוב המס
+          מעבר לדף)
+        </p>
+
+        <table style="border: 2px solid; border-collapse: 2px">
+          <thead style="border: 2px solid">
+            <tr>
+              <th style="border: 2px solid; width: 200px">תאריך השינוי</th>
+
+              <th style="border: 2px solid; width: 800px">פרטי השינוי</th>
+
+              <th style="border: 2px solid; width: 200px">תאריך ההודעה</th>
+
+              <th style="border: 2px solid; width: 150px">חתימת העובד/ת</th>
+            </tr>
+          </thead>
+
+          <tr>
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+          </tr>
+
+          <tr>
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+          </tr>
+
+          <tr>
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+            <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+          </tr>
+        </table>
+
+        <br />
+
+        <fieldset>
+          <h4>
+            ח. אני מבקש/ת פטור או זיכוי ממס מהסיבות הבאות (סמן/י √ בריבוע
+            המתאים)
+          </h4>
+
+          <input type="checkbox" name="clause1" id="clause1" />
+
+          <label for="clause1">1 אני תושב/ת ישראל. </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause2" id="clause2" />
+
+          <label for="clause2"
+            >2.אני נכה %100 / עיוור/ת לצמיתות. מצורף אישור משרד
+            הביטחון/האוצר/פקיד השומה/תעודת עיוור שהוצאה לאחר 94.1.1. אם לא סומן
+            בפרק ה כי "אין לי הכנסות אחרות לרבות מלגות" העובד יופנה לפקיד השומה
+            לעריכת תיאום מס.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause3" id="clause3" />
+
+          <label for="clause3"
+            >3 (מתאריך . אני ובני משפחתי מדרגה ראשונה, אני תושב/ת קבוע/ה בישוב
+            מזכה מתגוררים ביישוב ואין לי "מרכז חיים" נוסף. מצורף אישור של הרשות
+            ע"ג טופס 1312א.</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause4" id="clause4" />
+
+          <label for="clause4"
+            >4.אני עולה חדש/ה מתאריך . לא היתה לי הכנסה בישראל מתחילת שנת המס
+            הנוכחית עד תאריך . מי שתקופת זכאותו אינה רצופה בשל שירות חובה בצה"ל,
+            לימודים על תיכוניים או יציאה לחו"ל - יפנה לפקיד השומה. חובה לצרף:
+            תעודת עולה.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause5" id="clause5" />
+
+          <label for="clause5"
+            >5.בגין בן/בת זוגי המתגורר/ת עימי ואין לו/לה הכנסות בשנת המס. <br />
+
+            רק אם העובד/ת או בן/בת הזוג הגיע/ה לגיל פרישה או שהוא/היא נכה או
+            עיוור/ת עפ"י סעיף 9)5 (לפקודה.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause6" id="clause6" />
+
+          <label for="clause6"
+            >6.אני הורה במשפחה חד הורית(החי בנפרד. ימולא רק ע"י הורה כאמור החי
+            בנפרד ומבקש נקודות זיכוי עבור ילדיו, הנמצאים בחזקתו ובגינם אני הורה
+            במשפחה חד הורית מקבל קצבת ילדים מהמוסד לביטוח לאומי (בהתאם לסעיף 7
+            להלן) ואינו מנהל משק בית משותף עם יחיד/ה אחר/ת.</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause7" id="clause7" />
+
+          <label for="clause7">7 בגין ילדיי שבחזקתי המפורטים בחלק ג. </label
+          ><br />
+
+          ימולא רק ע"י הורה במשפחה חד הורית שמקבל את קצבת הילדים בגינם, או ע"י
+          אשה נשואה או ע"י הורה יחיד
+
+          <br />
+
+          <input type="checkbox" name="clause7.1" id="clause7.1" />
+
+          <label for="clause7.1">מספר ילדים שנולדו בשנת המס</label>
+
+          <input type="checkbox" name="clause7.2" id="clause7.2" />
+
+          <label for="clause7.2"
+            >מספר ילדים שימלאו להם 13 שנים עד 17 שנים בשנת המס</label
+          >
+
+          <br />
+
+          <input type="checkbox" name="clause7.3" id="clause7.3" />
+
+          <label for="clause7.3"
+            >מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס</label
+          >
+
+          <input type="checkbox" name="clause7.4" id="clause7.4" />
+
+          <label for="clause7.4">מספר ילדים שימלאו להם 18 שנים בשנת המס</label>
+
+          <br />
+
+          <input type="checkbox" name="clause7.5" id="clause7.5" />
+
+          <label for="clause7.5"
+            >מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="parent" id="parent" />
+
+          <label for="parent"
+            >8.בגין ילדיי. ימולא ע"י הורה (למעט הורה אשר סימן בפסקה 7 לעיל), אשה
+            לא נשואה שילדיה אינם בחזקתה וכן הורה יחיד</label
+          ><br />
+
+          <input type="checkbox" name="clause 8" id="clause 8" />
+
+          <label for="clause 8"> מספר ילדים שנולדו בשנת המס</label>
+
+          <input type="checkbox" name="clause 8.1" id="clause 8.1" />
+
+          <label for="clause 8.1"
+            >מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס</label
+          >
+
+          <br />
+
+          <input type="checkbox" name="clause 8.2" id="clause 8.2" />
+
+          <label for="clause 8.2"
+            >מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause 9" id="clause 9" />
+
+          <label for="clause 9"
+            >9. לילדיי שבחזקתי (המפורטים בסעיף 7 ו-8 לעיל). אני הורה יחיד</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause 10" id="clause 10" />
+
+          <label for="clause 10"
+            >10.בגין ילדיי שאינם בחזקתי המפורטים בחלק ג ואני משתתף/ת בכלכלתם.
+            ימולא ע"י הורה החי בנפרד, שאינו זכאי לנקודות זיכוי בגין ילדיו, אשר
+            המציא פס"ד המחייב אותו בתשלום מזונות.</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause 11" id="clause 11" />
+
+          <label for="clause 11"
+            >11.אני הורה ל ילדים עם מוגבלות שטרם מלאו להם 19 שנים, בגינם אני
+            מקבל/ת גמלת ילד נכה מהמוסד לביטוח לאומי. מצורף אישור גמלת ילד נכה
+            מהמוסד לביטוח לאומי לשנה נוכחית. בן זוגי אינו מקבל נקודות זיכוי אלה.
+            לילדיי, בגינם אני מבקש את נקודות הזיכוי, אין הכנסות בשנה
+            הנוכחית.</label
+          >
+
+          <hr />
+
+          <input type="checkbox" name="clause 12" id="clause 12" />
+
+          <label for="clause 12"
+            >12.בגין מזונות לבן/בת זוגי לשעבר. ימולא ע"י מי שנישא בשנית. מצורף
+            פסק דין.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause 13" id="clause 13" />
+
+          <label for="clause 13"
+            >13.מלאו לי או לבן/בת זוגי 16 שנים וטרם מלאו לי או לבן/בת זוגי 18
+            שנים בשנת המס.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause 14" id="clause 14" />
+
+          <label for="clause 14"
+            >14.מאני חייל/ת משוחרר/ת / שרתתי בשירות לאומי. תאריך תחילת השירות
+            תאריך סיום השירות . מצורף צילום של תעודת שחרור/סיום שירות.
+          </label>
+
+          <hr />
+
+          <input type="checkbox" name="clause 15" id="clause 15" />
+
+          <label for="clause 15"
+            >15.בגין סיום לימודים לתואר אקדמי, סיום התמחות או סיום לימודי מקצוע.
+            מצורפת הצהרה בטופס 119.
+          </label>
+
+          <hr />
+        </fieldset>
+
+        <h4>ט. אני מ בקש/ת תיאום מס מהסיבות הבאות (סמן/י √ בריבוע המתאים)</h4>
+
+        <fieldset>
+          <input type="checkbox" name="clause ט" id="clause ט" />
+
+          <label for="clause ט"
+            >לא היתה לי הכנסה מתחילת שנת המס הנוכחית עד לתחילת עבודתי אצל מעסיק
+            זה
+
+            <br />
+
+            הערות: 1 .יש להמציא הוכחה כגון: אישור משטרת הגבולות בגין שהייה
+            בחו"ל, אישור מחלה וכיו"ב. בהעדר הוכחה יש לפנות לפקיד השומה
+
+            <br />
+
+            2 .דמי לידה ודמי אבטלה הינם הכנסה חייבת </label
+          ><br />
+
+          <input type="checkbox" name="clause 2ט" id="clause 2ט" />
+
+          <label for="clause 2ט"
+            >2. יש לי הכנסות נוספות ממשכורת כמפורט להלן:
+          </label>
+
+          <fieldset>
+            <table style="border: 2px solid; border-collapse: 2px">
+              <thead style="border: 2px solid">
+                <tr>
+                  <th colspan="4" style="border: 2px solid; width: 400px">
+                    המעסיק/משלם המשכורת
+                  </th>
+
+                  <th style="border: 2px solid; width: 200px">
+                    סוג ההכנסה עבודה\קצבה\מלגה\אחר
+                  </th>
+
+                  <th style="border: 2px solid; width: 250px">הכנסה חודשית</th>
+
+                  <th style="border: 2px solid; width: 250px">המס שנוכה</th>
+                </tr>
+              </thead>
+
+              <tr>
+                <td
+                  colspan="2"
+                  style="
+                    border: 2px solid;
+
+                    border-collapse: 2px;
+
+                    text-align: center;
+
+                    width: 150px;
+                  "
+                >
+                  שם
+                </td>
+
+                <td
+                  style="
+                    border: 2px solid;
+
+                    border-collapse: 2px;
+
+                    text-align: center;
+
+                    width: 150px;
+                  "
+                >
+                  כתובת
+                </td>
+
+                <td
+                  style="
+                    border: 2px solid;
+
+                    border-collapse: 2px;
+
+                    text-align: center;
+
+                    width: 150px;
+                  "
+                >
+                  מספר תיק ניכויים
+                </td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td
+                  colspan="2"
+                  style="
+                    border: 2px solid;
+
+                    border-collapse: 2px;
+
+                    text-align: center;
+                  "
+                >
+                  (לפי התלושים)
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="border: 2px solid; border-collapse: 2px">
+                  &nbsp
+                </td>
+
+                <td colspan="" style="border: 2px solid; border-collapse: 2px">
+                  &nbsp
+                </td>
+
+                <td style="border: 2px solid; border-collapse: 2px">9</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+              </tr>
+
+              <tr>
+                <td
+                  colspan="2"
+                  style="border: 2px solid; border-collapse: 2px"
+                ></td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">9</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+              </tr>
+
+              <tr>
+                <td
+                  colspan="2"
+                  style="border: 2px solid; border-collapse: 2px"
+                ></td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">9</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+
+                <td style="border: 2px solid; border-collapse: 2px">&nbsp</td>
+              </tr>
+            </table>
+
+            <input type="checkbox" name="clause 3ט" id="clause 3ט" />
+
+            <label for="clause 3ט"
+              >3 פקיד השומה אישר תיאום לפי אישור מצורף</label
+            >
+          </fieldset>
+
+          <br />
+
+          <h4>י. הצהרה</h4>
+
+          <fieldset>
+            אני מצהיר/ה כי הפרטים שמסרתי בטופס זה הינם מלאים ונכונים. ידוע לי
+            שהשמטה או מסירת פרטים לא נכונים הינה עבירה על פקודת מס הכנסה. אני
+            מתחייב/ת להודיע למעסיק על כל שינוי שיחול בפרטיי האישיים ובפרטים
+            דלעיל תוך שבוע ימים מתאריך השינוי. <br />
+
+            <label for="date sign">תאריך</label><br />
+
+            <input type="text" name="date sign" id="date sign" />
+
+            <br />
+
+            <label for="name sign">חתימת המבקש/ת </label>
+
+            <br />
+
+            <input type="text" name="name sign" id="name sign" />
+          </fieldset>
+
+          <h4>דברי הסבר למילוי טופס 101</h4>
+
+          (1" (עובד" יחיד המקבל משכורת. "מעסיק" אדם המשלם משכורת. "משכורת" הכנסת
+          עבודה, קיצבה, מענק עקב פרישה או מוות, מילגה וכיו"ב
+
+          <br />"עבודה" לרבות קבלת משכורת. "מלגה" לרבות מענק, פרס או פטור מתשלום
+          שניתן לסטודנט או לחוקר. <br />(2 (משכורת חודש - משכורת בעד עבודה של לא
+          פחות מ - 18 יום בחודש. <br />(3 (משכורת בעד משרה נוספת - משכורת בעד
+          עבודה של יותר מ - 5 שעות ביום, נוסף למשכורת ו/או בנוסף לקצבה החייבת
+          במס ממקום אחר. העובד רשאי לבחור את מקום העבודה בו תחשב <br />
+
+          משכורתו כ"משכורת בעד משרה נוספת".
+
+          <br />(4 (משכורת חלקית - משכורת בעד עבודה של 5 שעות או פחות ליום או
+          משכורת בעד עבודה במשך יותר מ-5 שעות ליום אך פחות מ-8 שעות בשבוע.
+          <br />
+
+          ממשכורת חלקית ינוכה מס בשיעור מירבי אלא אם כן זו הכנסה יחידה שאז ינוכה
+          מס לפי לוח הניכויים.
+
+          <br />(5 (שכר עבודה - משכורת בעד עבודה של פחות מ - 18 יום בחודש אך לא
+          פחות מ - 8 שעות בשבוע. משכר עבודה ינוכה מס לפי לוח יומי אלא אם כן זו
+          הכנסה יחידה שאז ינוכה <br />
+
+          מס לפי לוח הניכויים.
+
+          <br />(6 (קצבה - אין לדווח על קצבה פטורה מביטוח לאומי וקצבת שאירים
+          שכולה פטורה. <br />(7 (אם העובד לא מילא משבצת זו - המעסיק מנוע מלנכות
+          מס לפי לוח הניכויים ויש לנכות מס מירבי לפי התקנות מכל תשלומי המעסיק.
+          <br />(8 (אם העובד מילא משבצת זו - המעסיק מנוע מלנכות מס לפי לוח
+          הניכויים ויש לנכות מס מירבי לפי התקנות מכל תשלומי המעסיק. <br />(9 (אם
+          העובד לא מילא משבצת זו - על המעסיק לצרף למשכורת את סכומי ההפרשות לקרן
+          השתלמות ולנכות מס לפי התקנות או לפעול לפי אישור תיאום מס מפקיד השומה.
+          <br />(10(אם העובד לא מילא משבצת זו - על המעסיק לצרף למשכורת את סכומי
+          ההפרשות לקצבה/לאובדן כושר עבודה ולנכות מס לפי התקנות או לפעול לפי
+          אישור תיאום מס מפ"ש. <br />(11(הורה במשפחה חד הורית הוא אחד מאלה:
+          רווק, גרוש, אלמן, פרוד (עפ"י אישור פ"ש בלבד). <br />(12 (הורה יחיד -
+          הורה במשפחה חד הורית שהיה לו ילד שבשנת המס טרם מלאו לו 19 שנים ושההורה
+          השני של הילד נפטר או שהילד רשום במרשם האוכלוסין בלא פרטי ההורה השני.
+          <br />(13 (ישוב מזכה - ישוב שחל עליו סעיף 11 לפקודה או סעיף 11 לחוק
+          אס”ח, לפי העניין.
+        </fieldset>
+        <br />
+        <label for="send"></label>
+        <input type="submit" name="שלח" id="send" />
+      </fieldset>
+    </form>
+  </body>
+</html>
